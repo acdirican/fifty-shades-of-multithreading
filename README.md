@@ -8,11 +8,11 @@ Finding the sum here is like a big job that will handled by a group of workers a
 
 While workers are to solve a given sub task, a forman is reponsbile of 4 important activities:
 <ol>
-  <li>Decompsing the problem into smaller parts or sub tasks
-  <li>Allocating sub tasks to workers
-  <li>Obseerving workers' progress, if necessary
-  <li>After workers complete their parts, recombining the sub solutions coming from the workers into a final solution. 
-<ol>
+  <li>Decompsing the problem into smaller parts or sub tasks</li>
+  <li>Allocating sub tasks to workers</li>
+  <li>Obseerving workers' progress, if necessary</li>
+  <li>After workers complete their parts, recombining the sub solutions coming from the workers into a final solution. </li>
+</ol>
 
 In the implementation, the distinction will come from the partitionning of the problem (it may be iterative or recursive), the definitions of workers and forman, and the recombination of sub solutions. 
 
